@@ -1,0 +1,12 @@
+- type: loadout
+  id: BrigmedicClothingUniformJumpsuitBrigmedic
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNfsd
+
+- type: loadout
+  id: BrigmedicClothingUniformJumpskirtBrigmedic
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtNfsd

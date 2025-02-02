@@ -1,0 +1,14 @@
+- type: loadout
+  id: ValetClothingUniformJumpsuitValet
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitValet
+
+- type: loadout
+  id: ValetClothingUniformJumpskirtValet
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtValet

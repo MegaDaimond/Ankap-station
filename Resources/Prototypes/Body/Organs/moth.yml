@@ -1,0 +1,33 @@
+- type: entity
+  id: OrganMothStomach
+  parent: [OrganAnimalStomach, OrganHumanStomach]
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Stomach
+    specialDigestible:
+      # tags: # Frontier
+      # - ClothMade # Frontier
+      # - Paper # Frontier
+      components: # Frontier
+      - MothFood # Frontier
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 50
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [ Moth ]
+    removeEmpty: true
+    groups:
+      - id: Food
+      - id: Drink
+      - id: Medicine
+      - id: Cryogenic # Frontier
+      - id: Poison
+      - id: Narcotic
+      - id: Alcohol

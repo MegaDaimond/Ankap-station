@@ -1,0 +1,64 @@
+- type: loadout
+  id: LawyerClothingUniformJumpsuitLawyerBlack
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+
+- type: loadout
+  id: LawyerClothingUniformJumpskirtLawyerBlack
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtLawyerBlack
+
+- type: loadout
+  id: LawyerClothingUniformJumpsuitLawyerBlue
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlue
+
+- type: loadout
+  id: LawyerClothingUniformJumpskirtLawyerBlue
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtLawyerBlue
+
+- type: loadout
+  id: LawyerClothingUniformJumpsuitLawyerPurple
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerPurple
+
+- type: loadout
+  id: LawyerClothingUniformJumpskirtLawyerPurple
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtLawyerPurple
+
+- type: loadout
+  id: LawyerClothingUniformJumpsuitLawyerRed
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerRed
+
+- type: loadout
+  id: LawyerClothingUniformJumpskirtLawyerRed
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtLawyerRed
+
+- type: loadout
+  id: LawyerClothingUniformJumpsuitLawyerGood
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerGood
+
+- type: loadout
+  id: LawyerClothingUniformJumpskirtLawyerGood
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtLawyerGood

@@ -1,0 +1,12 @@
+- type: loadout
+  id: DeputyClothingUniformJumpsuitDeputy
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNfsd
+
+- type: loadout
+  id: DeputyClothingUniformJumpskirtDeputy
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtNfsd

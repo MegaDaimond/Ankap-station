@@ -1,0 +1,56 @@
+- type: entity
+  parent: WeaponLauncherChinaLake
+  suffix: EMP
+  id: WeaponLauncherChinaLakeEmp
+  components:
+  - type: BallisticAmmoProvider
+    proto: GrenadeEMP
+
+- type: entity
+  suffix: EMP
+  parent: [BaseC2ContrabandUnredeemable, WeaponLauncherRocket]
+  id: WeaponLauncherRocketEmp
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRocketEmp
+
+- type: entity
+  name: mail RPDS
+  parent: [BaseC1Contraband, WeaponLauncherChinaLake]
+  id: WeaponMailLake
+  description: Rap(b?)id Parcel Delivery System
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Launchers/mail.rsi
+  - type: Clothing
+    sprite: _NF/Objects/Weapons/Guns/Launchers/mail.rsi
+    slots:
+    - Back
+    - Belt
+    - suitStorage
+  - type: BallisticAmmoProvider
+    proto: null
+    whitelist:
+      tags:
+        - MailCapsule
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  name: NFSD grenade launcher
+  parent: [BaseC2ContrabandUnredeemable, WeaponLauncherChinaLake]
+  id: WeaponLauncherNfsdLake
+  description: Able to lob both grenades and darts!
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
+  - type: Clothing
+    sprite: _NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
+  - type: BallisticAmmoProvider
+    proto: null
+    whitelist:
+      tags:
+        - TrackingDart
+        - Grenade
+  - type: StaticPrice
+    price: 50

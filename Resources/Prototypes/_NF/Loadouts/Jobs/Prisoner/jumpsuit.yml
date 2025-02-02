@@ -1,0 +1,14 @@
+- type: loadout
+  id: PrisonerJumpsuit
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitPrisoner
+
+- type: loadout
+  id: PrisonerJumpskirt
+  price: 0
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtPrisoner
