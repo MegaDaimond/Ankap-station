@@ -390,7 +390,7 @@
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleAk
+    - id: LPPWeaponRifleMakeshiftAK
       amount: 1
     - id: MagazineLightRifle
       amount: 2

@@ -10,3 +10,11 @@
   id: DeputyClothingUniformJumpskirtDeputy
   equipment:
     jumpsuit: ClothingUniformJumpskirtNfsd
+
+- type: loadout
+  id: LPPDeputyClothingUniformJumpsuitDeputy
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitSergant

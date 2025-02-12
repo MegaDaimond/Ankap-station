@@ -2,3 +2,9 @@
   id: DeputyClothingHeadHatDeputy
   equipment:
     head: ClothingHeadHatNfsdSmallCampaign
+#LoP
+
+- type: loadout
+  id: LPPDeputyClothingHeadHatDeputy
+  equipment:
+    ears: LPPClothingHeadHatCowboy

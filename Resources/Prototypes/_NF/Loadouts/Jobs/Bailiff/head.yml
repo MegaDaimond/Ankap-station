@@ -2,3 +2,13 @@
   id: BailiffClothingHeadHatBailiff
   equipment:
     head: ClothingHeadHatNfsdBeretBrown
+
+- type: loadout
+  id: LPPBailiffClothingHeadHatBailiff1
+  equipment:
+    head: LPPClothingHeadHatDeputySherif
+
+- type: loadout
+  id: LPPBailiffClothingHeadHatBailiff2
+  equipment:
+    head: LPPClothingHeadHatCowboyDeputySherif

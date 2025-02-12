@@ -36,7 +36,7 @@
   - type: Vocal
     sounds:
       Male: MaleReptilian
-      Female: FemaleReptilian
+      # Female: FemaleReptilian
       Unsexed: MaleReptilian
   - type: BodyEmotes
     soundsId: ReptilianBodyEmotes

@@ -10,3 +10,9 @@
   id: BailiffClothingUniformJumpskirtBailiff
   equipment:
     jumpsuit: ClothingUniformJumpskirtNfsd
+#LPP
+
+- type: loadout
+  id: LPPBailiffClothingUniformJumpsuitBailiff
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitBailiffSherif
